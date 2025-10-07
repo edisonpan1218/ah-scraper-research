@@ -12,6 +12,7 @@ This repository contains Python scripts that demonstrate how to **collect and pa
 ---
 
 ## Features
+- Collecting product links from website.
 - Extract product title, ingredients, and CO₂ info from product pages.  
 - Parse ingredients into individual items, expanding parenthesis content.  
 - Count number of parsed ingredients and write results into CSV.  
