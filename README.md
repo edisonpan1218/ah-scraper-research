@@ -57,15 +57,11 @@ This repository contains Python scripts that demonstrate how to **collect and pa
 
 ---
 
-## Example Output (dummy data)
+## Example Output 
 
-```csv
-Category,Title,Ingredients,IngredientAmount,All items,CO2 (kg CO2e per kg)
-chicken,AH Kipfilet,"98% kipfilet, conserveermiddel [E250]",2,"98% kipfilet, conserveermiddel [E250]",3.2
-beef,AH Rundergehakt,"99% rundvlees, antioxidant [E301]",2,"99% rundvlees, antioxidant [E301]",6.4
-```
-
-*(The above dataset is synthetic example data, not scraped data.)*
+| Category | ProductName | LabelStatus | CO2  | IngredientAmount | Ingredients | All items |
+| -------- | -------- | -------- | -------- | -------- | -------- |  ----- | 
+| beef     |   AH Mergpijp   | 0 | | 1 | Ingrediënten: rundvlees. | ([rundvlees])
 
 ---
 
