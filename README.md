@@ -37,13 +37,23 @@ This repository contains Python scripts that demonstrate how to **collect and pa
 
 ## Usage
 
-Run the scraper with:
+1. **Collect product links**  
+   Run `get_all_product_link.py` to fetch all product URLs from the selected categories.  
+   ```bash
+   python src/get_all_product_link.py
+   ```
 
-```bash
-python scraper.py
-```
+2. **Scrape product information**  
+   Use `get_product_info.py` to visit each product page and extract details such as title, ingredients, and CO₂ info.  
+   ```bash
+   python src/get_product_info.py
+   ```
 
-The script will fetch product pages, extract information, and save results into `output.csv`.
+3. **Parse and update ingredients**  
+   Finally, run `ingredient_update.py` to re-parse the ingredients column, expand items inside parentheses, and update the CSV you select with the corrected ingredient counts.  
+   ```bash
+   python src/ingredient_update.py
+   ```
 
 ---
 
