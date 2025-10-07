@@ -38,19 +38,19 @@ This repository contains Python scripts that demonstrate how to **collect and pa
 ## Usage
 
 1. **Collect product links**  
-   Run `get_all_product_link.py` to fetch all product URLs from the selected categories.  
+   Run `get_all_product_link.py` to fetch all product URLs from the selected categories.  You get ah_products.csv after executing it.
    ```bash
    python src/get_all_product_link.py
    ```
 
 2. **Scrape product information**  
-   Use `get_product_info.py` to visit each product page and extract details such as title, ingredients, and CO₂ info.  
+   Use `get_product_info.py` to visit each product page and extract details such as title, ingredients, and CO₂ info.  You get thesis_data.csv after executing it.
    ```bash
    python src/get_product_info.py
    ```
 
 3. **Parse and update ingredients**  
-   Finally, run `ingredient_update.py` to re-parse the ingredients column, expand items inside parentheses, and update the CSV you select with the corrected ingredient counts.  
+   Finally, run `ingredient_update.py` to re-parse the ingredients column, expand items inside parentheses, and update the CSV you select with the corrected ingredient counts.  You get the csv_update after executing it.
    ```bash
    python src/ingredient_update.py
    ```
