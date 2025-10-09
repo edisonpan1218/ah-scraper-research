@@ -15,7 +15,7 @@ def slice_after_last_colon_to_period(s: str) -> str:
     if last_colon == -1:
         return text[:-1] if text.endswith(".") else text
     next_period = text.find(".", last_colon + 1)
-    return text[last_colon + 1:next_period].strip() if next_period != -1 else text[last_colon + 1:].strip()
+    return text[last_colon + 1:].strip()
 
 def parse_ingredients(text: str):
     """
@@ -65,3 +65,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
